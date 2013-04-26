@@ -1,0 +1,325 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9C7694CA172AE38C00293A52 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C7694C9172AE38C00293A52 /* UIKit.framework */; };
+		9C7694CC172AE38C00293A52 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C7694CB172AE38C00293A52 /* Foundation.framework */; };
+		9C7694CE172AE38C00293A52 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C7694CD172AE38C00293A52 /* CoreGraphics.framework */; };
+		9C7694D4172AE38C00293A52 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9C7694D2172AE38C00293A52 /* InfoPlist.strings */; };
+		9C7694D6172AE38C00293A52 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C7694D5172AE38C00293A52 /* main.m */; };
+		9C7694DA172AE38C00293A52 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C7694D9172AE38C00293A52 /* AppDelegate.m */; };
+		9C7694DC172AE38C00293A52 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C7694DB172AE38C00293A52 /* Default.png */; };
+		9C7694DE172AE38C00293A52 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C7694DD172AE38C00293A52 /* Default@2x.png */; };
+		9C7694E0172AE38C00293A52 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C7694DF172AE38C00293A52 /* Default-568h@2x.png */; };
+		9C7694E9172AE3C700293A52 /* NSDate+RExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C7694E8172AE3C700293A52 /* NSDate+RExtension.m */; };
+		9C7694EC172AE7C700293A52 /* UIColor+RExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C7694EB172AE7C700293A52 /* UIColor+RExtension.m */; };
+		9C7694F2172AE86B00293A52 /* UIApplication+RExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C7694F1172AE86B00293A52 /* UIApplication+RExtension.m */; };
+		9C7694F5172AEA9600293A52 /* NSString+RExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C7694F4172AEA9600293A52 /* NSString+RExtension.m */; };
+		9C7694F8172AEC6100293A52 /* NSData+RExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C7694F7172AEC6100293A52 /* NSData+RExtension.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9C7694C6172AE38C00293A52 /* RTUsefulExtension.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RTUsefulExtension.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C7694C9172AE38C00293A52 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		9C7694CB172AE38C00293A52 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		9C7694CD172AE38C00293A52 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		9C7694D1172AE38C00293A52 /* RTUsefulExtension-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RTUsefulExtension-Info.plist"; sourceTree = "<group>"; };
+		9C7694D3172AE38C00293A52 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9C7694D5172AE38C00293A52 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9C7694D7172AE38C00293A52 /* RTUsefulExtension-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RTUsefulExtension-Prefix.pch"; sourceTree = "<group>"; };
+		9C7694D8172AE38C00293A52 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9C7694D9172AE38C00293A52 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9C7694DB172AE38C00293A52 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		9C7694DD172AE38C00293A52 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		9C7694DF172AE38C00293A52 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		9C7694E7172AE3C700293A52 /* NSDate+RExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+RExtension.h"; sourceTree = "<group>"; };
+		9C7694E8172AE3C700293A52 /* NSDate+RExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+RExtension.m"; sourceTree = "<group>"; };
+		9C7694EA172AE7C700293A52 /* UIColor+RExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+RExtension.h"; sourceTree = "<group>"; };
+		9C7694EB172AE7C700293A52 /* UIColor+RExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+RExtension.m"; sourceTree = "<group>"; };
+		9C7694F0172AE86B00293A52 /* UIApplication+RExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIApplication+RExtension.h"; sourceTree = "<group>"; };
+		9C7694F1172AE86B00293A52 /* UIApplication+RExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIApplication+RExtension.m"; sourceTree = "<group>"; };
+		9C7694F3172AEA9600293A52 /* NSString+RExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+RExtension.h"; sourceTree = "<group>"; };
+		9C7694F4172AEA9600293A52 /* NSString+RExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+RExtension.m"; sourceTree = "<group>"; };
+		9C7694F6172AEC6100293A52 /* NSData+RExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+RExtension.h"; sourceTree = "<group>"; };
+		9C7694F7172AEC6100293A52 /* NSData+RExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+RExtension.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9C7694C3172AE38C00293A52 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C7694CA172AE38C00293A52 /* UIKit.framework in Frameworks */,
+				9C7694CC172AE38C00293A52 /* Foundation.framework in Frameworks */,
+				9C7694CE172AE38C00293A52 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9C7694BD172AE38C00293A52 = {
+			isa = PBXGroup;
+			children = (
+				9C7694E6172AE3A700293A52 /* Classes */,
+				9C7694CF172AE38C00293A52 /* RTUsefulExtension */,
+				9C7694C8172AE38C00293A52 /* Frameworks */,
+				9C7694C7172AE38C00293A52 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9C7694C7172AE38C00293A52 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9C7694C6172AE38C00293A52 /* RTUsefulExtension.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9C7694C8172AE38C00293A52 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9C7694C9172AE38C00293A52 /* UIKit.framework */,
+				9C7694CB172AE38C00293A52 /* Foundation.framework */,
+				9C7694CD172AE38C00293A52 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9C7694CF172AE38C00293A52 /* RTUsefulExtension */ = {
+			isa = PBXGroup;
+			children = (
+				9C7694D8172AE38C00293A52 /* AppDelegate.h */,
+				9C7694D9172AE38C00293A52 /* AppDelegate.m */,
+				9C7694D0172AE38C00293A52 /* Supporting Files */,
+			);
+			path = RTUsefulExtension;
+			sourceTree = "<group>";
+		};
+		9C7694D0172AE38C00293A52 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9C7694D1172AE38C00293A52 /* RTUsefulExtension-Info.plist */,
+				9C7694D2172AE38C00293A52 /* InfoPlist.strings */,
+				9C7694D5172AE38C00293A52 /* main.m */,
+				9C7694D7172AE38C00293A52 /* RTUsefulExtension-Prefix.pch */,
+				9C7694DB172AE38C00293A52 /* Default.png */,
+				9C7694DD172AE38C00293A52 /* Default@2x.png */,
+				9C7694DF172AE38C00293A52 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9C7694E6172AE3A700293A52 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				9C7694E7172AE3C700293A52 /* NSDate+RExtension.h */,
+				9C7694E8172AE3C700293A52 /* NSDate+RExtension.m */,
+				9C7694EA172AE7C700293A52 /* UIColor+RExtension.h */,
+				9C7694EB172AE7C700293A52 /* UIColor+RExtension.m */,
+				9C7694F0172AE86B00293A52 /* UIApplication+RExtension.h */,
+				9C7694F1172AE86B00293A52 /* UIApplication+RExtension.m */,
+				9C7694F3172AEA9600293A52 /* NSString+RExtension.h */,
+				9C7694F4172AEA9600293A52 /* NSString+RExtension.m */,
+				9C7694F6172AEC6100293A52 /* NSData+RExtension.h */,
+				9C7694F7172AEC6100293A52 /* NSData+RExtension.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9C7694C5172AE38C00293A52 /* RTUsefulExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9C7694E3172AE38C00293A52 /* Build configuration list for PBXNativeTarget "RTUsefulExtension" */;
+			buildPhases = (
+				9C7694C2172AE38C00293A52 /* Sources */,
+				9C7694C3172AE38C00293A52 /* Frameworks */,
+				9C7694C4172AE38C00293A52 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RTUsefulExtension;
+			productName = RTUsefulExtension;
+			productReference = 9C7694C6172AE38C00293A52 /* RTUsefulExtension.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9C7694BE172AE38C00293A52 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = ricky;
+			};
+			buildConfigurationList = 9C7694C1172AE38C00293A52 /* Build configuration list for PBXProject "RTUsefulExtension" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 9C7694BD172AE38C00293A52;
+			productRefGroup = 9C7694C7172AE38C00293A52 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9C7694C5172AE38C00293A52 /* RTUsefulExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9C7694C4172AE38C00293A52 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C7694D4172AE38C00293A52 /* InfoPlist.strings in Resources */,
+				9C7694DC172AE38C00293A52 /* Default.png in Resources */,
+				9C7694DE172AE38C00293A52 /* Default@2x.png in Resources */,
+				9C7694E0172AE38C00293A52 /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9C7694C2172AE38C00293A52 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C7694D6172AE38C00293A52 /* main.m in Sources */,
+				9C7694DA172AE38C00293A52 /* AppDelegate.m in Sources */,
+				9C7694E9172AE3C700293A52 /* NSDate+RExtension.m in Sources */,
+				9C7694EC172AE7C700293A52 /* UIColor+RExtension.m in Sources */,
+				9C7694F2172AE86B00293A52 /* UIApplication+RExtension.m in Sources */,
+				9C7694F5172AEA9600293A52 /* NSString+RExtension.m in Sources */,
+				9C7694F8172AEC6100293A52 /* NSData+RExtension.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9C7694D2172AE38C00293A52 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9C7694D3172AE38C00293A52 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9C7694E1172AE38C00293A52 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9C7694E2172AE38C00293A52 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9C7694E4172AE38C00293A52 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RTUsefulExtension/RTUsefulExtension-Prefix.pch";
+				INFOPLIST_FILE = "RTUsefulExtension/RTUsefulExtension-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		9C7694E5172AE38C00293A52 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RTUsefulExtension/RTUsefulExtension-Prefix.pch";
+				INFOPLIST_FILE = "RTUsefulExtension/RTUsefulExtension-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9C7694C1172AE38C00293A52 /* Build configuration list for PBXProject "RTUsefulExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C7694E1172AE38C00293A52 /* Debug */,
+				9C7694E2172AE38C00293A52 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9C7694E3172AE38C00293A52 /* Build configuration list for PBXNativeTarget "RTUsefulExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C7694E4172AE38C00293A52 /* Debug */,
+				9C7694E5172AE38C00293A52 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9C7694BE172AE38C00293A52 /* Project object */;
+}
