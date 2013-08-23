@@ -49,6 +49,8 @@
                        forKey:@"LastLaunchVersion"];
         [userDefault synchronize];
     }
+    else
+        rtnval = NO;
     return rtnval;
 }
 
