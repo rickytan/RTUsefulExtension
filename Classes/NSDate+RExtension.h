@@ -16,6 +16,7 @@
 - (NSInteger)yearComponent;
 - (NSInteger)monthComponent;
 - (NSInteger)dayComponent;
+- (NSInteger)dayOfYearComponent;
 - (NSInteger)weekComponent;
 - (NSInteger)hourComponent;
 - (NSInteger)minuteComponent;

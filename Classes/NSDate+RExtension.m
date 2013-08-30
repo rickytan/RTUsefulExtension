@@ -79,6 +79,14 @@ static NSDateFormatter * _dateFormatter = nil;
     return component.day;
 }
 
+- (NSInteger)dayOfYearComponent
+{
+    NSCalendar *calendar = [NSCalendar currentCalendar];
+    return [calendar ordinalityOfUnit:NSDayCalendarUnit
+                               inUnit:NSYearCalendarUnit
+                              forDate:self];
+}
+
 - (NSInteger)yearComponent
 {
     NSCalendar *calendar = [NSCalendar currentCalendar];
