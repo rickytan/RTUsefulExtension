@@ -142,7 +142,7 @@
     if (documentsPath)
         return documentsPath;
     
-    NSArray *pathes = NSSearchPathForDirectoriesInDomains(NSDocumentationDirectory, NSUserDomainMask, YES);
+    NSArray *pathes = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES);
     documentsPath = [[pathes objectAtIndex:0] retain];
     return documentsPath;
 }
