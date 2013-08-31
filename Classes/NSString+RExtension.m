@@ -142,8 +142,8 @@
     if (documentsPath)
         return documentsPath;
     
-    NSArray *pathes = NSSearchPathForDirectoriesInDomains(NSDocumentationDirectory, NSUserDomainMask, NO);
-    documentsPath = [pathes objectAtIndex:0];
+    NSArray *pathes = NSSearchPathForDirectoriesInDomains(NSDocumentationDirectory, NSUserDomainMask, YES);
+    documentsPath = [[pathes objectAtIndex:0] retain];
     return documentsPath;
 }
 
@@ -153,8 +153,8 @@
     if (libraryPath)
         return libraryPath;
     
-    NSArray *pathes = NSSearchPathForDirectoriesInDomains(NSLibraryDirectory, NSUserDomainMask, NO);
-    libraryPath = [pathes objectAtIndex:0];
+    NSArray *pathes = NSSearchPathForDirectoriesInDomains(NSLibraryDirectory, NSUserDomainMask, YES);
+    libraryPath = [[pathes objectAtIndex:0] retain];
     return libraryPath;
 }
 
@@ -164,8 +164,8 @@
     if (cachePath)
         return cachePath;
     
-    NSArray *pathes = NSSearchPathForDirectoriesInDomains(NSCachesDirectory, NSUserDomainMask, NO);
-    cachePath = [pathes objectAtIndex:0];
+    NSArray *pathes = NSSearchPathForDirectoriesInDomains(NSCachesDirectory, NSUserDomainMask, YES);
+    cachePath = [[pathes objectAtIndex:0] retain];
     return cachePath;
 }
 
@@ -175,8 +175,8 @@
     if (downloadPath)
         return downloadPath;
     
-    NSArray *pathes = NSSearchPathForDirectoriesInDomains(NSDownloadsDirectory, NSUserDomainMask, NO);
-    downloadPath = [pathes objectAtIndex:0];
+    NSArray *pathes = NSSearchPathForDirectoriesInDomains(NSDownloadsDirectory, NSUserDomainMask, YES);
+    downloadPath = [[pathes objectAtIndex:0] retain];
     return downloadPath;
 }
 
